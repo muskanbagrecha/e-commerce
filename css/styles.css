@@ -161,6 +161,10 @@ html {
     width: 80%;
 }
 
+.featured-products-container{
+    margin-bottom: 5rem;
+}
+
 /*Image banner */
 .banner {
     background-image: url("https://th.bing.com/th/id/R.7ed07dd0533c0e6e1ae94b82f9c0e233?rik=Zap9cIYL%2f1qnzg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fGirl-Fashion-Dress-Red-Background-HD-Wallpaper.jpg&ehk=QJZWVgeD0Rnc8jWUbIlgrg6SGetjVrbcTpjeN4iRJRg%3d&risl=&pid=ImgRaw&r=0");
