@@ -1,12 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fashgram - Creative Meets Fashion</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+
+    <!-- Component Library -->
+    <link rel="stylesheet" href="https://card-input.netlify.app/lighttheme.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <!-- Navbar starts-->
+        <nav class="navigation navigation-full">
+
+            <!-- logo -->
+            <a href="index.html">
+                <img src="./assets/logo.png" alt="logo" class="logo">
+            </a>
+
+            <!-- menu -->
+            <ul class="nav-list">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="shop-gown.html">Shop</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+
+            <!-- Login, Cart, Wishlist,  -->
+            <ul class="icons">
+                <li>
+                    <a href="#">
+                        <i class="search-icon btn-icon fa fa-search"></i>
+                    </a>
+                    <div class="search-bar search-form">
+                        <form>
+                            <input type="search" placeholder="Search" class="input-styled">
+                            <i class="btn-icon fas fa-search"></i>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <a href="login.html">
+                        <i class="btn-icon fa fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="cart.html">
+                        <i class="btn-icon fa fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="btn-icon fa fa-heart"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Burger -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </nav>
+        <!-- Navbar ends -->
+
+
+        <!-- Hero section -->
+        <div class="hero">
+
+            <!-- Hero Text content -->
+            <div class="hero__content">
+                <div class="hero__heading">
+                    <span class="heading-1 large-title">Luxury</span>
+                    <span class="heading-2 large-title">Bridal</span>
+                    <span class="heading-3 large-title">Festive</span>
+                    <span class="heading-4 large-title">Glam</span>
+                </div>
+                <a href="shop-gown.html" class="btn btn-black-no-br">Shop Now</a>
+            </div>
+        </div>
+        <!-- Hero ends -->
+
+        <!-- Featured Categories -->
+        <h2 class="medium-title">Featured Categories</h2>
+
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <a href="">
+                            <img src="./assets/carousel-images/img-4.jpg" 
+                            class = "img-responsive"
+                            alt="">
+                        </a>
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="">
+                            <img src="./assets/carousel-images/img-2.jpg" 
+                            class = "img-responsive"
+                            alt="">
+                        </a>
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="">
+                            <img src="./assets/carousel-images/img-1.jpg" 
+                            class = "img-responsive"
+                            alt="">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <div class="carousel__nav">
+                <button class="carousel__indicator carousel__indicator--active"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator "></button>
+            </div>
+        </div>
+
+        <!-- Featured Products -->
+        <h2 class="medium-title">Featured Products</h2>
+        <section class="row-container" style="margin-bottom: 5rem;">
+
+            <div class="card card-vertical">
+                <span class="card__badge">Selling fast</span>
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <h3 class="card__title">Purple Dress</h3>
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h4>Rs. 10,800</h4>
+                        <p class="strike-text"><del>Rs. 12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="#" class="btn btn-primary">Cart</a>
+                        <a href="" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-vertical">
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <h3 class="card__title">Purple Dress</h3>
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h4>Rs. 10,800</h4>
+                        <p class="strike-text"><del>Rs. 12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="#" class="btn btn-primary">Cart</a>
+                        <a href="" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Banner -->
+        <section class="banner">
+            <div class="">
+                <h4>End of Season Sale</h4>
+                <h1>Spring Collection <br>Upto 20% Off</h1>
+                <button class="btn btn-white-no-br" style="margin:10px 0; border-radius: 0;">Shop Now</button>
+            </div>
+        </section>
+
+
+        <!-- Featured Brands -->
+        <h2 class="medium-title">Featured Brands</h2>
+        <section class="row-container brands">
+            <img loading="lazy" src="./assets/brands/anitadongre.png" alt="" class="img-responsive">
+            <img loading="lazy" src="./assets/brands/tanishq.png" alt="" class="img-responsive">
+            <img loading="lazy" src="./assets/brands/sugar.png" alt="" class="img-responsive">
+        </section>
+
+        <!-- Customer Reviews -->
+        <h2 class="medium-title">What Our Customers Say</h2>
+        <section class="row-container testimonials">
+            <div class="card card-vertical">
+                <div class="testimonial__profile">
+                    <img src="./assets/testimonials/img-1.jpg" alt="testimonial"
+                    class="img-responsive">
+                </div>
+                <div class="testimonial__content">
+                    <h4>Hannah Baker</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, aliquid ut nam quam voluptas a obcaecati laudantium ea! 
+                    </p>
+                </div>
+                <div class="socials">
+                    <i class="fab fa-instagram btn-icon"></i>
+                    <i class="fab fa-youtube btn-icon"></i>
+                    <i class="fab fa-facebook btn-icon"></i>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <div class="testimonial__profile">
+                    <img src="./assets/testimonials/img-2.jpg" alt="testimonial"
+                    class="img-responsive">
+                </div>
+                <div class="testimonial__content">
+                    <h4>Hannah Baker</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, aliquid ut nam quam voluptas a obcaecati laudantium ea!
+                    </p>
+                </div>
+                <div class="socials">
+                    <i class="fab fa-instagram btn-icon"></i>
+                    <i class="fab fa-youtube btn-icon"></i>
+                    <i class="fab fa-facebook btn-icon"></i>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <div class="testimonial__profile">
+                    <img src="./assets/testimonials/img-3.jpg" alt="testimonial"
+                    class="img-responsive">
+                </div>
+                <div class="testimonial__content">
+                    <h4>Hannah Baker</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa in, aliquam earum iusto ipsum adipisci eius? Rerum, laboriosam.
+                    </p>
+                </div>
+                <div class="socials">
+                    <i class="fab fa-instagram btn-icon"></i>
+                    <i class="fab fa-youtube btn-icon"></i>
+                    <i class="fab fa-facebook btn-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with <span class="code-symbol">&lt; / &gt;</span> by Muskan Bagrecha</p>
+            <ul class="footer__list">
+                <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fa fa-hashnode" aria-hidden="true"></i></a></li>
+            </ul>
+            <p class="copyright">© Fashgram'22</p>
+        </footer>
+        <!-- Footer ends -->
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/be9a255fe4.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/navigation.js"></script>
 </body>
+
 </html>
