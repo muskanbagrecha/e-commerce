@@ -75,7 +75,7 @@ footer {
 
 .slider {
     appearance: none;
-    background: #d3d3d3;
+    background: rgba(var(--color-complementary-values), 0.1);
     opacity: 0.7;
     transition: opacity 0.3s;
     border-radius: 10px;
@@ -94,7 +94,6 @@ footer {
 
 .slider__value--left {
     left: 0;
-    bottom: -20px;
 }
 
 .slider__value--right {
@@ -149,7 +148,7 @@ footer {
 }
 
 .pagination a:hover:not(.active) {
-    background-color: #ddd;
+    background-color: rgba(var(--color-complementary-values), 0.1);
 }
 
 
