@@ -2,12 +2,12 @@
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 22% 1fr 1fr;
+    grid-template-columns: 22% 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
-        "nav nav nav"
-        "filter products products"
-        "footer footer footer";
+        "nav nav"
+        "filter products"
+        "footer footer";
 }
 
 nav {
@@ -25,7 +25,7 @@ footer {
 
 /* Filter styling */
 
-hr {
+.filter__container hr {
     margin: 0.8rem auto;
     border: 1px solid #ddd;
 }
@@ -41,6 +41,7 @@ hr {
     font-size: 1.35rem;
     font-weight: 500;
     color: var(--color-dark);
+    font-family: "Roboto", sans-serif;
 }
 
 .filter__section {
@@ -70,6 +71,17 @@ hr {
     cursor: pointer;
 }
 
+/* Filter slider for price */
+
+.slider {
+    appearance: none;
+    background: #d3d3d3;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    border-radius: 10px;
+    width: 100%;
+}
+
 .slider__field {
     position: relative;
     padding: 1rem 0;
@@ -89,15 +101,6 @@ hr {
     right: 0;
 }
 
-.slider {
-    appearance: none;
-    background: #d3d3d3;
-    opacity: 0.7;
-    transition: opacity 0.3s;
-    border-radius: 10px;
-    width: 100%;
-}
-
 .slider:hover {
     opacity: 1;
 }
@@ -114,23 +117,16 @@ hr {
 /* Product Listings */
 .products__list-container {
     grid-area: products;
-    padding: 10%;
-    height: 100%;
-}
-
-.products__list-container{
+    place-content: center;
+    padding: 3rem;
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem 0;
+    gap: 3rem 1rem;
 }
 
 .product-card{
-    /* background-color: transparent !important; */
     box-shadow: none;
-}
-
-.product-card .card__img{
-    background-color: transparent;
 }
 
 /* Pagination */
@@ -138,6 +134,7 @@ hr {
     display: block;
     width: 100%;
     margin-top: 3rem;
+    text-align: center;
 }
   
 .pagination a {
@@ -165,5 +162,13 @@ hr {
             "products"
             "filter"
             "footer";
+    }
+
+    .filter__section, .filter__container hr{
+        display: none;
+    }
+    .filter__container{
+        height: 2rem;
+        padding-top: 2rem;
     }
 }
