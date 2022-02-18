@@ -37,7 +37,7 @@ hr {
     padding: 0.5rem;
 }
 
-.filter__header .filter__main__title {
+.filter__header .filter__main-title {
     font-size: 1.35rem;
     font-weight: 500;
     color: var(--color-dark);
@@ -58,7 +58,7 @@ hr {
     padding: 1rem 0;
 }
 
-.filter__section .filter__section__title {
+.filter__section .filter__section-title {
     font-size: 1.15rem;
     font-weight: 500;
     color: var(--color-dark);
