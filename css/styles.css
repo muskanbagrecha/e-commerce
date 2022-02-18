@@ -257,56 +257,11 @@ footer {
     color: rgba(var(--color-complementary-values), 0.8);
 }
 
-@media screen and (min-width: 2000px) {
-    html {
-        font-size: 115%;
-    }
+/* Extra customizations on top of component library */
+.btn-link-text {
+    border: 0;
+    color: var(--color-primary);
 }
-
-@media screen and (max-width: 1080px) {
-    .brands>* {
-        width: 13rem;
-    }
-}
-
-@media screen and (max-width: 840px) {
-    .brands {
-        flex-direction: column;
-    }
-
-    .brands>img{
-        width: 15rem;
-        height: 8rem;
-    }
-
-    .banner {
-        height: 50vh;
-    }
-}
-
-
-@media screen and (max-width: 680px) {
-    html {
-        font-size: 72.5%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    html {
-        font-size: 60%;
-    }
-
-    .carousel {
-        height: 40rem;
-        width: 100%;
-        /* background: transparent; */
-    }
-
-    .banner {
-        background-position: right 40% top;
-    }
-}
-
 
 .heading-1 {
     animation: animateHeading 12s 1s infinite;
@@ -356,8 +311,51 @@ footer {
     }
 }
 
-/* Extra customizations on top of component library */
-.btn-link-text {
-    border: 0;
-    color: var(--color-primary);
+@media screen and (min-width: 2000px) {
+    html {
+        font-size: 115%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .brands>* {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .brands {
+        flex-direction: column;
+    }
+
+    .brands>img{
+        width: 15rem;
+        height: 8rem;
+    }
+
+    .banner {
+        height: 50vh;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    html {
+        font-size: 72.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }
+
+    .carousel {
+        height: 40rem;
+        width: 100%;
+    }
+
+    .banner {
+        background-position: right 40% top;
+    }
 }
