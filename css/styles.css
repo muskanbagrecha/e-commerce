@@ -226,6 +226,7 @@ footer {
     padding: var(--spacing-large);
     background-color: rgba(var(--color-complementary-values), 0.1);
     color: var(--color-complementary);
+    width: 100%;
 }
 
 .code-symbol {
