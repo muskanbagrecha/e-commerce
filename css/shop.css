@@ -92,12 +92,12 @@ footer {
     position: absolute;
 }
 
-.slider__value-left {
+.slider__value--left {
     left: 0;
     bottom: -20px;
 }
 
-.slider__value-right {
+.slider__value--right {
     right: 0;
 }
 
