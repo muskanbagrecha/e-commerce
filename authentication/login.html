@@ -25,24 +25,25 @@
         <link rel="stylesheet" href="https://card-input.netlify.app/lighttheme.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/login.css">
     </head>
 
     <div class="container">
+
 
         <!-- Navbar starts-->
         <nav class="navigation navigation-full">
 
             <!-- logo -->
-            <a href="#">
-                <img src="./assets/logo.png" alt="logo" class="logo">
+            <a href="index.html">
+                <img src="../assets/logo.png" alt="logo" class="logo">
             </a>
 
             <!-- menu -->
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../shop.html">Shop</a></li>
                 <li><a href="">About</a></li>
             </ul>
 
@@ -65,12 +66,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="../cart.html">
                         <i class="btn-icon fa fa-shopping-cart"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="../wishlist.html">
                         <i class="btn-icon fa fa-heart"></i>
                     </a>
                 </li>
@@ -82,32 +83,36 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
+
         </nav>
 
-        <!-- Signup container starts -->
-        <main class="signup__container">
-            <h3>SIGN UP</h3>
+        <!-- Login container starts -->
+        <main class="login__container">
+
+            <h3>LOGIN</h3>
+
             <div class="input-form">
-                <label class="label" for="email">Name<span class="red">*</span></label>
-                <input type="text" name="email" placeholder="Enter your name" required>
                 <label class="label" for="email">Email Id<span class="red">*</span></label>
                 <input type="text" name="email" placeholder="abc@gmail.com" required>
-                <label class="label" for="password">Password</label>
-                <input type="password" name="password" placeholder="*********" required>
-                <label class="label" for="password">Confirm Password</label>
-                <input type="password" name="password" placeholder="*********" required>
 
-                <div class="form-checks flex-align-center">
-                    <input type="checkbox" name="terms-conditions" />
-                    <label for="terms-conditions">
-                        <span>I agree to the <a href="#" class="btn-link-text">Terms and Conditions</a></span>
-                    </label>
+                <label class="label" for="password">Password</label>
+                <input type="text" name="password" placeholder="*********" required>
+
+                <div class="form-checks">
+                    <div class="flex-align-center">
+                        <label for="remember-me"></label>
+                        <input type="checkbox" name="remember-me" id="remember-me">
+                        <span>Remember Me</span>
+                    </div>
+                    <a class="btn-link-text">Forgot Password</a>
                 </div>
 
+
                 <button class="btn btn-primary">LOGIN</button>
-                <a href="login.html" class="btn btn-link-text align-center"> Already registered? Log in<i class="fas fa-chevron-right"></i>
+                <a href="signup.html" class="btn btn-link-text align-center">Create new account
+                    <i class="fas fa-chevron-right"></i>
                 </a>
-                
+
             </div>
         </main>
 
