@@ -18,12 +18,14 @@ const collapseFilter = () => {
     }
 }
 
-const clearAllFilters = () => {
-    const priceSortFilter = document.querySelector(".price-sort-filter");
-    const categoryFilter = document.querySelector(".category-filter");
-    const priceRange = document.querySelector(".price-range");
+const clearFilters = () => {
+    const clearFilterBtn = document.querySelector(".filter__clear");
+    clearFilterBtn.addEventListener("click", () => {
+        const data = document.querySelectorAll(".filter-data");
+        data[0].reset();
+        data[1].reset();
+    })
 }
 
-priceSlider();
-// collapseFilter();
-clearAllFilters();
+clearFilters();
+

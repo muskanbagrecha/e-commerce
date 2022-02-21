@@ -3,10 +3,9 @@
 }
 
 .cart__container {
-    gap: 2rem;
     width: 90%;
     margin:3rem auto;
-    max-width: 70rem;
+    max-width: 80rem;
 }
 
 .cart__right-container{
@@ -29,6 +28,26 @@
 .price__list li{
     display: flex;
     justify-content: space-between;
+}
+
+.card__quantity{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.card__quantity span{
+    border: 1px solid #ddd;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-secondary);
+}
+
+.card__quantity span:nth-child(2){
+    color: var(--color-complementary);
 }
 
 .CTA__container{
