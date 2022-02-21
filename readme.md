@@ -53,8 +53,11 @@
 ### 5. Sign Up page -
 
 - Navigate to sign up page by clicking user icon in the header. When login pops up, click the "create new account link".
+- Input name
 - Input email address
 - Input password
+- Confirm password
+- Password can be hidden/shown
 - User agreement checkbox
 - Sign up button
 - Already have an account button, login button
@@ -66,6 +69,7 @@
 - Navigate to login by clicking user icon in the header
 - Input email address
 - Input password
+- Password can be hidden/shown
 - Remember me option.
 - Forgot password option
 - Submit button - login
