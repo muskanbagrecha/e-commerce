@@ -28,4 +28,5 @@ const clearFilters = () => {
 }
 
 clearFilters();
+priceSlider();
 
