@@ -4,11 +4,7 @@
 
 - [muskanbagrecha](https://github.com/muskanbagrecha)
 
-
-
-https://user-images.githubusercontent.com/46674359/155018590-446b86a6-d587-4a64-9754-1082dd8d8530.mp4
-
-
+https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-a1b0-8892d0fd9019.mp4
 
 ## Features and Functionalities
 
@@ -29,7 +25,7 @@ https://user-images.githubusercontent.com/46674359/155018590-446b86a6-d587-4a64-
 
 - filters - sort-by price, categories, price, rating
 - Products listed - vertical cards.
-- Clear filter - On clicking the clear filter button, all filters will be cleared.
+- Clear filter - On clicking the clear filter button, all filters will be cleared. (Filters are not yet completely responsive).
 
 [Shop](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/shop.html)
 
