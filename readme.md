@@ -1,10 +1,14 @@
 # Fashgram Store - where creative meets Fashion
 
-
-
 ## Author
 
 - [muskanbagrecha](https://github.com/muskanbagrecha)
+
+
+
+https://user-images.githubusercontent.com/46674359/155018590-446b86a6-d587-4a64-9754-1082dd8d8530.mp4
+
+
 
 ## Features and Functionalities
 
