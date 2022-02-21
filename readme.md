@@ -4,7 +4,7 @@
 
 ## Author
 
-- [@muskan](https://github.com/muskanbagrecha)
+- [muskanbagrecha](https://github.com/muskanbagrecha)
 
 ## Features and Functionalities
 
@@ -17,7 +17,7 @@
 - Featured Brands
 - Customer testimonials
 
-[Demo- Home page](https://magnificent-store.netlify.app/pages/homepage/homepage.html)
+demo-url
 
 ### 2. Product listing page -
 
@@ -27,7 +27,7 @@
 - Products listed - vertical cards.
 - Clear filter - On clicking the clear filter button, all filters will be cleared.
 
-[Demo- Product listing page](https://magnificent-store.netlify.app/pages/products/products.html)
+demo-url
 
 ### 3. Cart Management page -
 (Can be navigated to cart management page by clicking on the cart icon on the header.)
@@ -39,7 +39,7 @@
 - Place Order option
 - Apply coupons option
 
-[Demo- Cart page](https://magnificent-store.netlify.app/pages/signin/signin.html)
+demo-url 
 
 ### 4. Wishlist page -
 
@@ -48,7 +48,7 @@
 - Product can be added to cart
 - Product can be removed from wishlist by clicking cross button
 
-[Demo- Wishlist page](https://magnificent-store.netlify.app/pages/wishlist/wishlist.html)
+demo-url 
 
 ### 5. Sign Up page -
 
@@ -59,7 +59,7 @@
 - Sign up button
 - Already have an account button, login button
 
-[Demo- Signup page](https://magnificent-store.netlify.app/pages/signup/signup.html)
+demo-url
 
 ### 6. Login page -
 
@@ -71,11 +71,13 @@
 - Submit button - login
 - Sign up option - Create new account
 
-[Demo- Signin page](https://magnificent-store.netlify.app/pages/signin/signin.html)
+demo-url
 
 ### 7. Logout Button -
 
 - On the cart page, logout button appears in the header.
+
+demo-url
 
 ## Tech Stack
 
