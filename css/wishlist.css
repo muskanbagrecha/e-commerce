@@ -1,0 +1,31 @@
+.main__container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "nav"
+        "product"
+        "footer";
+}
+
+nav {
+    grid-area: nav;
+}
+
+.product__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-area: product;
+    padding: 4rem 0;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.card {
+    height: fit-content;
+}
+
+.card__CTA{
+    margin: 1rem auto;
+}
