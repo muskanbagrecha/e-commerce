@@ -75,20 +75,20 @@
 - Submit button - login
 - Sign up option - Create new account
 
-
+[Login](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/authentication/login.html)
 
 ### 7. Logout Button -
 
 - On the cart page, logout button appears in the header.
 
-demo-url
+[logout](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/cart.html)
 
 ## Tech Stack
 
 - HTML
 - CSS
 - Javascript
-- Components imported from [Magnificent Component Library](https://magnificentui.netlify.app/)
+- Components imported from [Fashgram Component Library](#)
 
 <br>
 
