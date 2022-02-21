@@ -6,27 +6,21 @@
 }
 
 .login__container, .signup__container {
-    width: 70%;
-    height: 60%;
+    width: 100%;
     max-width: 30rem;
-    max-height: 44rem;
-    min-height: fit-content;
+    min-height: 45rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 4rem 0;
 }
 
-.signup__container{
-    height: 70%;
-}
-
 .login__container .input-form,
 .signup__container .input-form {
-    width: 90%;
+    width: 100%;
     border: none;
 }
 
@@ -45,6 +39,10 @@
     display: flex;
     justify-content: start;
     gap: 5px;
+}
+
+.signup__container .form-checks label {
+    font-size: 1rem;
 }
 
 .login__container .btn-primary, 

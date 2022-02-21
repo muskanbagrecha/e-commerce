@@ -17,7 +17,7 @@
 - Featured Brands
 - Customer testimonials
 
-demo-url
+[home](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/)
 
 ### 2. Product listing page -
 
@@ -27,7 +27,7 @@ demo-url
 - Products listed - vertical cards.
 - Clear filter - On clicking the clear filter button, all filters will be cleared.
 
-demo-url
+[Shop](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/shop.html)
 
 ### 3. Cart Management page -
 (Can be navigated to cart management page by clicking on the cart icon on the header.)
@@ -39,7 +39,7 @@ demo-url
 - Place Order option
 - Apply coupons option
 
-demo-url 
+[Cart](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/cart.html)
 
 ### 4. Wishlist page -
 
@@ -48,7 +48,7 @@ demo-url
 - Product can be added to cart
 - Product can be removed from wishlist by clicking cross button
 
-demo-url 
+[Wishlist](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/wishlist.html) 
 
 ### 5. Sign Up page -
 
@@ -62,7 +62,7 @@ demo-url
 - Sign up button
 - Already have an account button, login button
 
-demo-url
+[Signup](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/authentication/signup.html)
 
 ### 6. Login page -
 
@@ -75,7 +75,7 @@ demo-url
 - Submit button - login
 - Sign up option - Create new account
 
-demo-url
+
 
 ### 7. Logout Button -
 
