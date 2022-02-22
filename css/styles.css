@@ -119,6 +119,7 @@ html {
     background-color: rgba(0, 0, 0, 0.3);
     color: var(--color-white);
     cursor: pointer;
+    padding: 1rem 0;
 }
 
 .carousel__button--left{
@@ -182,6 +183,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2.5rem;
 }
 
 .brands>img{
@@ -366,18 +368,6 @@ footer {
         background-position: right 40% top;
     }
 }
-
-/* .btn-transparent-black-br {
-    background: transparent;
-    border: 2px solid var(--color-complementary);
-    color: var(--color-complementary);
-    cursor: pointer;
-    transition: color 0.3s ease-in;
-}
-
-.btn-transparent-black-br:hover {
-    background-color: var(--color-primary);
-} */
 
 .hero .btn:hover {
     color: var(--color-light);

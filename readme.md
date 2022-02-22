@@ -27,7 +27,8 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 
 - filters - sort-by price, categories, price, rating
 - Products listed - vertical cards.
-- Clear filter - On clicking the clear filter button, all filters will be cleared. (Filters are not yet completely responsive).
+- Clear filter - On clicking the clear filter button, all filters will be cleared. 
+- On smaller screens, filter can be opened by clicking the filter button at the bottom of the screen.
 
 [Shop](https://fashgram-store.netlify.app//shop.html)
 

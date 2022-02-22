@@ -108,7 +108,7 @@ footer {
 }
   
 .pagination a {
-    color: black;
+    color: var(--color-complementary);
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
