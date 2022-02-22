@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.login__container, .signup__container {
+    width: 100%;
+    max-width: 30rem;
+    min-height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 4rem 0;
+}
+
+.login__container .input-form,
+.signup__container .input-form {
+    width: 100%;
+    border: none;
+}
+
+.form-checks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-checks input {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.signup__container .form-checks{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+}
+
+.signup__container .form-checks label {
+    font-size: 1rem;
+}
+
+.login__container .btn-primary, 
+.signup__container .btn-primary{
+    height: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/* Utilities. This will be added to CL later. */
+.align-center {
+    margin: auto;
+}
+
+.flex-align-center{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
