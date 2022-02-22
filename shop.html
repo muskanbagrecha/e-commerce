@@ -80,109 +80,116 @@
         <!-- Filter container starts -->
         <aside class="filter__container">
 
-
             <!-- Filter header -->
             <section class="filter__header">
-                <h5 class="filter__main-title">
-                    Filters
-                </h5>
+
+                <button class="btn-icon filter__button">
+                    <h5>Filters</h5>
+                </button>
+
                 <div class="filter__clear">
                     <a class="btn-link-text">Clear All</a>
                 </div>
             </section>
 
-            <hr>
-            <form class="filter-data">
-                <!-- Sort by price filter -->
-                <section class="filter__section">
-                    <fieldset>
-                        <legend class="filter__section-title">Sort</legend>
-                        <label for="low-to-high">
-                            <input type="radio" name="price" id="low-to-high">
-                            <span>Low to High</span>
-                        </label>
-
-                        <label for="high-to-low">
-                            <input type="radio" name="price" id="high-to-low">
-                            <span>High to Low</span>
-                        </label>
-                    </fieldset>
-                </section>
-
+            <div class="filter__items">
                 <hr>
 
-                <!-- Category filter -->
-                <section class="filter__section">
-                    <!-- <form class="category-filter"> -->
-                    <fieldset>
-                        <legend class="filter__section-title">Categories</legend>
-
-                        <label for="ball-gown-category">
-                            <input type="checkbox" name="category" id="ball-gown-category">
-                            <span>Ball Gowns</span>
-                        </label>
-
-                        <label for="bridal-category">
-                            <input type="checkbox" name="category" id="bridal-category">
-                            <span>Bridal</span>
-                        </label>
-
-                        <label for="cosmetics-category">
-                            <input type="checkbox" name="category" id="cosmetics-category">
-                            <span>Cosmetics</span>
-                        </label>
-
-                        <label for="jewellery-category">
-                            <input type="checkbox" name="category" id="jewellery-category">
-                            <span>Jewellery</span>
-                        </label>
-
-                    </fieldset>
-                    <!-- </form> -->
-                </section>
-
-                <hr>
-
-                <!-- Price Filter -->
-                <section class="filter__section">
-                    <legend class="filter__section-title">Price</legend>
-                    <div class="slider__field">
-                        <input type="range" min="100" max="30000" value="100" class="slider" id="price-range"
-                            step="100">
-                        <div class="slider__value value--left">100</div>
-                        <div class="slider__value slider__value--right">30k</div>
-                    </div>
-                    <div class="price-range-output">₹100 to ₹1000</div>
-                </section>
-            </form>
-
-            <hr>
-
-            <!-- Rating Filter -->
-            <section class="filter__section">
                 <form class="filter-data">
-                    <fieldset>
-                        <legend class="filter__section-title">Sort</legend>
-                        <label for="fourstar">
-                            <input type="radio" name="price" id="fourstar">
-                            <span>4 star & above</span>
-                        </label>
+                    <!-- Sort by price filter -->
+                    <section class="filter__section">
+                        <fieldset>
+                            <legend class="filter__section-title">Sort</legend>
+                            <label for="low-to-high">
+                                <input type="radio" name="price" id="low-to-high">
+                                <span>Low to High</span>
+                            </label>
 
-                        <label for="threestar">
-                            <input type="radio" name="price" id="threestar">
-                            <span>3 star & above</span>
-                        </label>
-                        <label for="twostar">
-                            <input type="radio" name="price" id="twostar">
-                            <span>2 star & above</span>
-                        </label>
-                        <label for="onestar">
-                            <input type="radio" name="price" id="onestar">
-                            <span>1 star & above</span>
-                        </label>
-                    </fieldset>
+                            <label for="high-to-low">
+                                <input type="radio" name="price" id="high-to-low">
+                                <span>High to Low</span>
+                            </label>
+                        </fieldset>
+                    </section>
+
+                    <hr>
+
+                    <!-- Category filter -->
+                    <section class="filter__section">
+                        <!-- <form class="category-filter"> -->
+                        <fieldset>
+                            <legend class="filter__section-title">Categories</legend>
+
+                            <label for="ball-gown-category">
+                                <input type="checkbox" name="category" id="ball-gown-category">
+                                <span>Ball Gowns</span>
+                            </label>
+
+                            <label for="bridal-category">
+                                <input type="checkbox" name="category" id="bridal-category">
+                                <span>Bridal</span>
+                            </label>
+
+                            <label for="cosmetics-category">
+                                <input type="checkbox" name="category" id="cosmetics-category">
+                                <span>Cosmetics</span>
+                            </label>
+
+                            <label for="jewellery-category">
+                                <input type="checkbox" name="category" id="jewellery-category">
+                                <span>Jewellery</span>
+                            </label>
+
+                        </fieldset>
+                        <!-- </form> -->
+                    </section>
+
+                    <hr>
+
+                    <!-- Price Filter -->
+                    <section class="filter__section">
+                        <legend class="filter__section-title">Price</legend>
+                        <div class="slider__field">
+                            <input type="range" min="100" max="30000" value="100" class="slider" id="price-range"
+                                step="100">
+                            <div class="slider__value value--left">100</div>
+                            <div class="slider__value slider__value--right">30k</div>
+                        </div>
+                        <div class="price-range-output">₹100 to ₹1000</div>
+                    </section>
                 </form>
-            </section>
+
+                <hr>
+
+                <!-- Rating Filter -->
+                <section class="filter__section">
+                    <form class="filter-data">
+                        <fieldset>
+                            <legend class="filter__section-title">Sort</legend>
+                            <label for="fourstar">
+                                <input type="radio" name="price" id="fourstar">
+                                <span>4 star & above</span>
+                            </label>
+
+                            <label for="threestar">
+                                <input type="radio" name="price" id="threestar">
+                                <span>3 star & above</span>
+                            </label>
+                            <label for="twostar">
+                                <input type="radio" name="price" id="twostar">
+                                <span>2 star & above</span>
+                            </label>
+                            <label for="onestar">
+                                <input type="radio" name="price" id="onestar">
+                                <span>1 star & above</span>
+                            </label>
+                        </fieldset>
+                    </form>
+                </section>
+
+            </div>
+
+
 
         </aside>
         <!-- Filter container ends -->
@@ -366,7 +373,14 @@
     <script src="./js/navigation.js"></script>
     <script src="./js/filters.js"></script>
     <script>
-
+        const filterSlide = () => {
+            const filter = document.querySelector('.filter__items');
+            const filterBtn = document.querySelector('.filter__button');
+            filterBtn.addEventListener('click', () => {
+                filter.classList.toggle('filter__items--active');
+            })
+        };
+        filterSlide();
     </script>
 </body>
 

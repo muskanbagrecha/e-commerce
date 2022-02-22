@@ -122,11 +122,13 @@ html {
 }
 
 .carousel__button--left{
-    left: -2.5rem;
+    left: 0;
+    z-index: 1;
 }
 
 .carousel__button--right{
-    right: -2.5rem;
+    right: 0;
+    z-index: 1;
 }
 
 .carousel__nav{
@@ -280,6 +282,10 @@ footer {
     animation: animateHeading 12s 10s infinite;
 }
 
+.navigation-full{
+    font-size: 1.3rem;
+}
+
 @keyframes animateHeading {
     0% {
         transform: translateZ(8rem);
@@ -342,13 +348,13 @@ footer {
 
 @media screen and (max-width: 680px) {
     html {
-        font-size: 72.5%;
+        font-size: 82.5%;
     }
 }
 
 @media screen and (max-width: 480px) {
     html {
-        font-size: 60%;
+        font-size: 72.5%;
     }
 
     .carousel {
@@ -359,4 +365,22 @@ footer {
     .banner {
         background-position: right 40% top;
     }
+}
+
+/* .btn-transparent-black-br {
+    background: transparent;
+    border: 2px solid var(--color-complementary);
+    color: var(--color-complementary);
+    cursor: pointer;
+    transition: color 0.3s ease-in;
+}
+
+.btn-transparent-black-br:hover {
+    background-color: var(--color-primary);
+} */
+
+.hero .btn:hover {
+    color: var(--color-light);
+    background: transparent;
+    border: 2px solid var(--color-dark);
 }
