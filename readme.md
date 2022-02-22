@@ -64,7 +64,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Sign up button
 - Already have an account button, login button
 
-[Signup](https://fashgram-store.netlify.app//signup.html)
+[Signup](https://fashgram-store.netlify.app//authentication/signup.html)
 
 ### 6. Login page -
 
@@ -77,7 +77,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Submit button - login
 - Sign up option - Create new account
 
-[Login](https://fashgram-store.netlify.app//login.html)
+[Login](https://fashgram-store.netlify.app//authentication/login.html)
 
 ### 7. Logout Button -
 
