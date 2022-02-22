@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Featured Brands
 - Customer testimonials
 
-[home](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/)
+[home](fashgram-store.netlify.app)
 
 ### 2. Product listing page -
 
@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Products listed - vertical cards.
 - Clear filter - On clicking the clear filter button, all filters will be cleared. (Filters are not yet completely responsive).
 
-[Shop](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/shop.html)
+[Shop](fashgram-store.netlify.app/shop.html)
 
 ### 3. Cart Management page -
 (Can be navigated to cart management page by clicking on the cart icon on the header.)
@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Place Order option
 - Apply coupons option
 
-[Cart](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/cart.html)
+[Cart](fashgram-store.netlify.app/cart.html)
 
 ### 4. Wishlist page -
 
@@ -50,7 +50,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Product can be added to cart
 - Product can be removed from wishlist by clicking cross button
 
-[Wishlist](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/wishlist.html) 
+[Wishlist](fashgram-store.netlify.app/wishlist.html) 
 
 ### 5. Sign Up page -
 
@@ -64,7 +64,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Sign up button
 - Already have an account button, login button
 
-[Signup](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/authentication/signup.html)
+[Signup](fashgram-store.netlify.app/signup.html)
 
 ### 6. Login page -
 
@@ -77,13 +77,13 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Submit button - login
 - Sign up option - Create new account
 
-[Login](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/authentication/login.html)
+[Login](fashgram-store.netlify.appn/login.html)
 
 ### 7. Logout Button -
 
 - On the cart page, logout button appears in the header.
 
-[logout](https://deploy-preview-6--musing-shockley-eae36b.netlify.app/cart.html)
+[logout](fashgram-store.netlify.app/cart.html)
 
 ## Tech Stack
 
