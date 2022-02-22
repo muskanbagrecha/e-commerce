@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Featured Brands
 - Customer testimonials
 
-[home](fashgram-store.netlify.app)
+[home](https://fashgram-store.netlify.app/)
 
 ### 2. Product listing page -
 
@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Products listed - vertical cards.
 - Clear filter - On clicking the clear filter button, all filters will be cleared. (Filters are not yet completely responsive).
 
-[Shop](fashgram-store.netlify.app/shop.html)
+[Shop](https://fashgram-store.netlify.app//shop.html)
 
 ### 3. Cart Management page -
 (Can be navigated to cart management page by clicking on the cart icon on the header.)
@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Place Order option
 - Apply coupons option
 
-[Cart](fashgram-store.netlify.app/cart.html)
+[Cart](https://fashgram-store.netlify.app//cart.html)
 
 ### 4. Wishlist page -
 
@@ -50,7 +50,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Product can be added to cart
 - Product can be removed from wishlist by clicking cross button
 
-[Wishlist](fashgram-store.netlify.app/wishlist.html) 
+[Wishlist](https://fashgram-store.netlify.app//wishlist.html) 
 
 ### 5. Sign Up page -
 
@@ -64,7 +64,7 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Sign up button
 - Already have an account button, login button
 
-[Signup](fashgram-store.netlify.app/signup.html)
+[Signup](https://fashgram-store.netlify.app//signup.html)
 
 ### 6. Login page -
 
@@ -77,20 +77,20 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Submit button - login
 - Sign up option - Create new account
 
-[Login](fashgram-store.netlify.appn/login.html)
+[Login](https://fashgram-store.netlify.app//login.html)
 
 ### 7. Logout Button -
 
 - On the cart page, logout button appears in the header.
 
-[logout](fashgram-store.netlify.app/cart.html)
+[logout](https://fashgram-store.netlify.app//cart.html)
 
 ## Tech Stack
 
 - HTML
 - CSS
 - Javascript
-- Components imported from [Fashgram Component Library](#)
+- Components imported from [Fashgram_UI](https://fashgram-ui-documentation.netlify.app/)
 
 <br>
 
