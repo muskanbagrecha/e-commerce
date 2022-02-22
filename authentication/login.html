@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fashgram - Creative Meets Fashion</title>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <!-- CSS -->
+
+        <!-- Component Library -->
+        <link rel="stylesheet" href="https://card-input.netlify.app/lighttheme.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+
+    <div class="container">
+
+
+        <!-- Navbar starts-->
+        <nav class="navigation navigation-full">
+
+            <!-- logo -->
+            <a href="index.html">
+                <img src="../assets/logo.png" alt="logo" class="logo">
+            </a>
+
+            <!-- menu -->
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../shop.html">Shop</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+
+            <!-- Login, Cart, Wishlist,  -->
+            <ul class="icons">
+                <li>
+                    <a href="#">
+                        <i class="btn-icon fa fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../cart.html">
+                        <i class="btn-icon fa fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../wishlist.html">
+                        <i class="btn-icon fa fa-heart"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Burger -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </nav>
+
+        <!-- Login container starts -->
+        <main class="login__container">
+
+            <h3>LOGIN</h3>
+            <form class="input-form">
+                <label class="label" for="email">Email Id<span class="red">*</span></label>
+                <input type="text" name="email" placeholder="abc@gmail.com" required>
+
+                <label class="label" for="password">Password</label>
+                <input type="text" name="password" placeholder="*********" required>
+
+                <div class="form-checks">
+                    <div class="flex-align-center">
+                        <label for="remember-me"></label>
+                        <input type="checkbox" name="remember-me" id="remember-me">
+                        <span>Remember Me</span>
+                    </div>
+                    <a class="btn-link-text">Forgot Password</a>
+                </div>
+
+
+                <button class="btn btn-primary">LOGIN</button>
+                <a href="signup.html" class="btn btn-link-text align-center">Create new account
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </form>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with <span class="code-symbol">&lt; / &gt;</span> by Muskan Bagrecha</p>
+            <ul class="footer__list">
+                <li><a href="https://www.linkedin.com/in/muskan-bagrecha-82bbb8176"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/HoejackBorseman"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://github.com/muskanbagrecha"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/hoejackborsemaan"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <p class="copyright">© Fashgram'22</p>
+        </footer>
+        <!-- Footer ends -->
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/be9a255fe4.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/navigation.js"></script>
+</body>
+
+</html>

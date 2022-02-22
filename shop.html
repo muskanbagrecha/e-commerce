@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashgram - Creative Meets Fashion</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+    <!-- Component Library -->
+    <link rel="stylesheet" href="https://card-input.netlify.app/lighttheme.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Navbar starts-->
+        <nav class="navigation navigation-full">
+
+            <!-- logo -->
+            <a href="index.html">
+                <img src="./assets/logo.png" alt="logo" class="logo">
+            </a>
+
+            <!-- menu -->
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="shop.html">Shop</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+
+            <!-- Login, Cart, Wishlist,  -->
+            <ul class="icons">
+                <li>
+                    <a href="#">
+                        <i class="search-icon btn-icon fa fa-search"></i>
+                    </a>
+                    <div class="search-bar search-form">
+                        <form>
+                            <input type="search" placeholder="Search" class="input-styled">
+                            <i class="btn-icon fas fa-search"></i>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <a href="./authentication/login.html">
+                        <i class="btn-icon fa fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="cart.html">
+                        <i class="btn-icon fa fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="wishlist.html">
+                        <i class="btn-icon fa fa-heart"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Burger -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </nav>
+        <!-- Navbar ends -->
+
+        <!-- Filter container starts -->
+        <aside class="filter__container">
+
+
+            <!-- Filter header -->
+            <section class="filter__header">
+                <h5 class="filter__main-title">
+                    Filters
+                </h5>
+                <div class="filter__clear">
+                    <a class="btn-link-text">Clear All</a>
+                </div>
+            </section>
+
+            <hr>
+            <form class="filter-data">
+                <!-- Sort by price filter -->
+                <section class="filter__section">
+                    <fieldset>
+                        <legend class="filter__section-title">Sort</legend>
+                        <label for="low-to-high">
+                            <input type="radio" name="price" id="low-to-high">
+                            <span>Low to High</span>
+                        </label>
+
+                        <label for="high-to-low">
+                            <input type="radio" name="price" id="high-to-low">
+                            <span>High to Low</span>
+                        </label>
+                    </fieldset>
+                </section>
+
+                <hr>
+
+                <!-- Category filter -->
+                <section class="filter__section">
+                    <!-- <form class="category-filter"> -->
+                    <fieldset>
+                        <legend class="filter__section-title">Categories</legend>
+
+                        <label for="ball-gown-category">
+                            <input type="checkbox" name="category" id="ball-gown-category">
+                            <span>Ball Gowns</span>
+                        </label>
+
+                        <label for="bridal-category">
+                            <input type="checkbox" name="category" id="bridal-category">
+                            <span>Bridal</span>
+                        </label>
+
+                        <label for="cosmetics-category">
+                            <input type="checkbox" name="category" id="cosmetics-category">
+                            <span>Cosmetics</span>
+                        </label>
+
+                        <label for="jewellery-category">
+                            <input type="checkbox" name="category" id="jewellery-category">
+                            <span>Jewellery</span>
+                        </label>
+
+                    </fieldset>
+                    <!-- </form> -->
+                </section>
+
+                <hr>
+
+                <!-- Price Filter -->
+                <section class="filter__section">
+                    <legend class="filter__section-title">Price</legend>
+                    <div class="slider__field">
+                        <input type="range" min="100" max="30000" value="100" class="slider" id="price-range"
+                            step="100">
+                        <div class="slider__value value--left">100</div>
+                        <div class="slider__value slider__value--right">30k</div>
+                    </div>
+                    <div class="price-range-output">₹100 to ₹1000</div>
+                </section>
+            </form>
+
+            <hr>
+
+            <!-- Rating Filter -->
+            <section class="filter__section">
+                <form class="filter-data">
+                    <fieldset>
+                        <legend class="filter__section-title">Sort</legend>
+                        <label for="fourstar">
+                            <input type="radio" name="price" id="fourstar">
+                            <span>4 star & above</span>
+                        </label>
+
+                        <label for="threestar">
+                            <input type="radio" name="price" id="threestar">
+                            <span>3 star & above</span>
+                        </label>
+                        <label for="twostar">
+                            <input type="radio" name="price" id="twostar">
+                            <span>2 star & above</span>
+                        </label>
+                        <label for="onestar">
+                            <input type="radio" name="price" id="onestar">
+                            <span>1 star & above</span>
+                        </label>
+                    </fieldset>
+                </form>
+            </section>
+
+        </aside>
+        <!-- Filter container ends -->
+
+        <!-- Product container starts -->
+        <main class="products__list-container">
+
+            <article class="card product-card card-vertical">
+                <span class="card__badge">Selling fast</span>
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <!-- <h3 class="card__title">Purple Dress</h3> -->
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h5>₹10,800</h5>
+                        <p class="strike-text small-text"><del>₹12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="cart.html" class="btn btn-primary">Cart</a>
+                        <a href="wishlist.html" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card product-card card-vertical">
+                <span class="card__badge">Selling fast</span>
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h5>₹10,800</h5>
+                        <p class="strike-text small-text"><del>₹12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="cart.html" class="btn btn-primary">Cart</a>
+                        <a href="wishlist.html" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card product-card card-vertical">
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h5>₹10,800</h5>
+                        <p class="strike-text small-text"><del>₹12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="cart.html" class="btn btn-primary">Cart</a>
+                        <a href="wishlist.html" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card product-card card-vertical">
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h4>₹10,800</h4>
+                        <p class="strike-text small-text"><del>₹12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="cart.html" class="btn btn-primary">Cart</a>
+                        <a href="wishlist.html" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card product-card card-vertical">
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h5>₹10,800</h5>
+                        <p class="strike-text small-text"><del>₹12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="cart.html" class="btn btn-primary">Cart</a>
+                        <a href="wishlist.html" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card product-card card-vertical">
+                <div class="card__img">
+                    <img src="./assets/dress-pic.jpg" alt="img" class="img-responsive">
+                </div>
+                <div class="card__content">
+                    <div class="card__header">
+                        <p class="card__subtitle">Women's ball gown</p>
+                    </div>
+                    <div class="card__desc">
+                        <small>Sold by H&M</small>
+                    </div>
+                    <div class="card__amount">
+                        <h5>₹10,800</h5>
+                        <p class="strike-text small-text"><del>₹12,000</del></p>
+                        <p class="red-highlight">10%</p>
+                    </div>
+                    <div class="card__CTA">
+                        <a href="cart.html" class="btn btn-primary">Cart</a>
+                        <a href="wishlist.html" class="btn btn-outline">Wishlist</a>
+                    </div>
+                </div>
+            </article>
+
+            <section class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">&raquo;</a>
+            </section>
+
+        </main>
+        <!-- Product container ends -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with <span class="code-symbol">&lt; / &gt;</span> by Muskan Bagrecha</p>
+            <ul class="footer__list">
+                <li><a href="https://www.linkedin.com/in/muskan-bagrecha-82bbb8176"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/HoejackBorseman"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://github.com/muskanbagrecha"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/hoejackborsemaan"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <p class="copyright">© Fashgram'22</p>
+        </footer>
+        <!-- Footer ends -->
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/be9a255fe4.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/filters.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
