@@ -93,7 +93,9 @@ https://user-images.githubusercontent.com/46674359/155018883-466ba8ba-d895-4529-
 - Javascript
 - Components imported from [Fashgram_UI](https://fashgram-ui-documentation.netlify.app/)
 
-<br>
+## Theme
+
+You can toggle the theme by clicking at the button at the top right corner.
 
 ## 🔗 Connect with me:
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](muskanbagrecha.netlify.app)
